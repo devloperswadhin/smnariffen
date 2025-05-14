@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="S M Nazir Ariffen - Professional Graphic Designer specializing in Logo Design, Branding, UI/UX Design, and Book Cover Design">
+    <title>S M Nazir Ariffen - Professional Graphic Designer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="nav-icon.webp">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Animation Libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button id="themeToggle" aria-label="Toggle dark/light mode">🌓</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1 data-aos="fade-up">S M Nazir Ariffen</h1>
+            <div class="typewriter" data-aos="fade-up" data-aos-delay="200">
+                I am a <span id="typed"></span>
+            </div>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="#portfolio" class="btn primary">View Portfolio</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="assets/profile.jpg" alt="S M Nazir Ariffen" loading="lazy">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <p>Professional Graphic Designer with 3+ years of experience specializing in logo design, branding, and UI/UX design. Based in Jhenaidah, Bangladesh, I help businesses create memorable visual identities.</p>
+                    <div class="tools">
+                        <h3>Tools & Software</h3>
+                        <div class="tools-grid">
+                            <!-- Tool icons will be added here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 data-aos="fade-up">My Work</h2>
+            <div class="portfolio-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="logos">Logos</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                <button class="filter-btn" data-filter="book-covers">Book Covers</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be added dynamically -->
+            </div>
+            <div class="portfolio-cta" data-aos="fade-up">
+                <a href="https://www.freelancer.com.bd/u/smnariffen/portfolio/elegant-fancy-versatile-logos-8999867?w=f&redirect-times=1&ngsw-bypass=" class="btn primary" target="_blank" rel="noopener noreferrer">View More Projects on Freelancer</a>
+            </div>
+            <div class="freelancer-portfolio" data-aos="fade-up">
+                <iframe 
+                    src="https://www.freelancer.com.bd/u/smnariffen/portfolio/elegant-fancy-versatile-logos-8999867?w=f&redirect-times=1&ngsw-bypass="
+                    width="100%"
+                    height="800"
+                    style="border: none; width: 100%; min-height: 800px;"
+                    sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    loading="lazy"
+                    title="Freelancer Portfolio">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 data-aos="fade-up">Client Testimonials</h2>
+            <div class="testimonials-carousel" data-aos="fade-up">
+                <!-- Testimonial items will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-form" data-aos="fade-right">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info" data-aos="fade-left">
+                    <div class="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58735.79757616586!2d89.1597!3d23.5450!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fee5d947d69735%3A0x2b89fb1be78b67f!2sJhenaidah%2C%20Bangladesh!5e0!3m2!1sen!2s!4v1234567890"
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/smnariffen" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://www.facebook.com/smnariffen" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Threads</a>
+                        <a href="https://www.freelancer.com.bd/u/smnariffen/portfolio/elegant-fancy-versatile-logos-8999867?w=f&redirect-times=1&ngsw-bypass=" target="_blank" rel="noopener noreferrer">Freelancer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2024 S M Nazir Ariffen. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
